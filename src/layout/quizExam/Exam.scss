@@ -1,0 +1,286 @@
+.main_list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+.main_list > h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-variant: small-caps;
+}
+.lastdiv_inside1 {
+  width: '250px';
+  min-height: '200px';
+  margin-top: '-44px';
+}
+.lastdiv_inside {
+  display: flex;
+    flex-direction: column;
+    width: 503px;
+    margin-top: -51px;
+}
+.user {
+  height: 100px;
+  padding-right: 70px;
+}
+.user1 {
+  display: flex;
+  flex-direction: row;
+}
+.QuestionsDiv {
+  font-size: 18px;
+  font-weight: bold;
+  align-items: center;
+  padding-top: 13px;
+  justify-content: center;
+}
+.Question-ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.stepperDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 100%;
+}
+.horizontal_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-inline: 50px;
+}
+.li {
+  cursor: pointer;
+  padding-bottom: 3px;
+  border: none;
+  color: white;
+  text-decoration: none;
+  margin-top: 3px;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding-top: 9px;
+  border-radius: 50%;
+}
+.li > a {
+  text-decoration: none;
+  background-color: none;
+}
+.last_div {
+  display: flex;
+  padding-top: 55px;
+  justify-content: space-evenly;
+}
+.last_div > h1 {
+  text-align: center;
+  padding-bottom: 0px;
+  font-variant: small-caps;
+}
+.recording {
+  border: 2px solid black;
+  height: 312px;
+  margin-top: -4px;
+  width: 260px;
+  border-radius: 4px;
+}
+.btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inactivee {
+  background-color: grey;
+}
+
+.activee {
+  background-color: rgb(33, 69, 230);
+}
+.completed {
+  background-color: #2145e6;
+  cursor: pointer;
+  margin-inline: 50px;
+}
+
+.question_heading {
+  padding-top: 15px;
+
+  text-align: center;
+}
+.desc {
+  font-weight: lighter;
+}
+
+.quiz_heading {
+  font-weight: 700;
+}
+
+.quiz-inside {
+  display: flex;
+  flex-direction: column;
+  border: 0;
+}
+.lastdiv_para {
+  padding-bottom: 15px;
+}
+.paginator-ques {
+  padding-top: 22px;
+  padding-left: -16px;
+  height: 225px;
+}
+.submit-btn {
+  // width: 119px;
+  margin-top: 4px;
+}
+.recording_inside {
+  padding-top: 41px;
+}
+.recording_inside_1 {
+  padding-top: 97px;
+  margin-top: -57px;
+  margin-left: 4px;
+}
+
+.myStepperClass {
+  justify-content: left !important;
+}
+.stepper_container div div div div a {
+  line-height: 1.8 !important;
+}
+.stepper_container div div div div span {
+  line-height: 1.8 !important;
+}
+.instructions {
+  width: '250px';
+  min-height: '300px';
+  margin-top: '-44px';
+}
+
+@media only screen and (max-width: 1152px) {
+  .last_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lastdiv_inside {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 564px;
+  }
+  .lastdiv_inside > h2 {
+    display: flex;
+    justify-content: center;
+  }
+  .recording {
+    border: 2px solid black;
+    height: 309px;
+    width: 578px;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  .user1 {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .instructions {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 86%;
+  }
+  .instructions-inside {
+    width: 250px;
+    display: contents;
+  }
+  .paginator-ques > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .recording_inside {
+    padding-top: 49px;
+    padding-inline-start: 159px;
+  }
+  .recording_inside_1 {
+    padding-top: 86px;
+    margin-left: 4px;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .last_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 191%;
+    padding-top: 20px;
+  }
+  .lastdiv_inside {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 56%;
+    margin-top: 20px;
+  }
+  .lastdiv_inside > h2 {
+    display: flex;
+    justify-content: center;
+  }
+  .recording {
+    border: 2px solid black;
+    height: 309px;
+    width: 57%;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  .user1 {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .instructions {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 56%;
+  }
+  .instructions-inside {
+    width: 250px;
+    display: contents;
+  }
+  .paginator-ques > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .recording_inside {
+    padding-top: 49px;
+    padding-inline-start: 80px;
+  }
+  .recording_inside_1 {
+    padding-top: 74px;
+  }
+  .quiz_heading {
+    width: 188%;
+  }
+  .user {
+    height: 100px;
+    padding-right: 70px;
+    width: 82%;
+    display: flex;
+    justify-content: center;
+    margin-left: 54%;
+  }
+}

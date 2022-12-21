@@ -1,0 +1,19 @@
+.addhrbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  // border: 2px solid red;
+}
+.links {
+  text-decoration: none;
+}
+
+.info-container-1 {
+  margin-right: -40px;
+}
+.paginationBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-right: 15px;
+}

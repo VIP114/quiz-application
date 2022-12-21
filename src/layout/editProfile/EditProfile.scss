@@ -1,0 +1,53 @@
+.input_tag {
+  display: none;
+  margin-left: 340px;
+}
+.edit-icon-wrapper {
+  position: absolute;
+  bottom: 5px;
+  right: 8px;
+}
+.edit-icon {
+  background-color: #fff !important;
+  height: 30px !important;
+  width: 30px !important;
+  padding: 2px !important;
+  cursor: pointer;
+}
+.editIcon {
+  margin-bottom: 10px;
+  width: 30px;
+  height: 30px;
+  margin-left: 145px;
+  margin-top: -23px;
+  background-color: #fff !important;
+  cursor: pointer;
+}
+.form-label-1 {
+  margin-left: 250px;
+  margin-right: 40px;
+}
+.para-and-icon {
+  margin-left: 9px;
+  margin-top: -10px;
+}
+.inside-container {
+  width: 900px !important;
+}
+.imagePreview {
+  width: 227px;
+}
+@media only screen and (max-width: 577px) {
+  .inside-container {
+    width: 807px !important;
+  }
+  .form-label-1 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .imagePreview {
+    width: 227px;
+  }
+ 
+}

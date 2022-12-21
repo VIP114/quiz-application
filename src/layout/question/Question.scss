@@ -1,0 +1,21 @@
+.flexing {
+  display: flex;
+  justify-content: space-between;
+}
+.statusclass {
+  // position:absolute;
+  margin-top: -40px;
+  margin-left: -40px;
+}
+.addQuestionbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+}
+
+.paginationBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-right: 15px;
+}

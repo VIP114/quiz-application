@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+:root {
+  color: #565656;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.input:focus {
+  border-color: cornflowerblue;
+  outline: none;
+}
+
+.input.has-error {
+  border-color: tomato;
+}
+
+.error {
+  line-height: 10px;
+  margin-bottom: 10px;
+  font-size: 90%;
+  color: tomato;
+}
+
+.card-content {
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 0px #131c29;
+  height: 500px;
+  padding: 0px 50px;
+}
+
+.cardCol {
+  width: 650px;
+}
+
+.page {
+  background-color: #131c29;
+}
+
+.card-body {
+  padding: 0px 15px;
+}
+
+.logo {
+  height: 110px;
+  width: 200px;
+  margin-left: 30%;
+}
+
+.sign-in-text {
+  font-size: 20px;
+  margin: 10px 0px 20px 0px;
+}
+
+.form-input {
+  height: 40px;
+}
+
+.radio-form {
+  width: 100%;
+  font-size: 16px;
+}
+
+.radio-btn {
+  // margin-left: 30%;
+}
+
+.login-btn {
+  background-color: #2f3d55;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
+  padding: 5px 0px;
+  margin-top: 15px;
+}
+
+.login-btn:hover {
+  box-shadow: 0px 0px 5px 0px #131c29;
+}

@@ -1,0 +1,35 @@
+.addbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+}
+.info-container-1 {
+  margin-right: -40px;
+}
+.paginationBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-right: 15px;
+}
+
+.table-container {
+  max-width: 1520px !important;
+  margin: 0px 10px !important;
+}
+.table-header {
+  background-color: RGB(59, 75, 101);
+  color: #fff;
+  padding: 20px 5px;
+}
+.delete-icon {
+  height: 20px;
+  width: 20px;
+}
+.action-btn {
+  background-color: #fff !important;
+}
+.action-icon {
+  height: 20px !important;
+  width: 20px !important;
+}

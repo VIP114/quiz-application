@@ -1,0 +1,43 @@
+// Here you can add other styles
+@mixin status {
+  display: flex;
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  margin-right: 6px;
+}
+
+$color-active: #4caf50;
+$color-inactive: #f44336;
+
+.status-wrapper {
+  display: flex;
+  align-items: center;
+}
+.status-active {
+  @include status();
+  background: $color-active;
+}
+.status-active-text {
+  color: $color-active;
+  font-weight: 600;
+}
+.status-inactive-text {
+  color: $color-inactive;
+  font-weight: 600;
+}
+.status-inactive {
+  @include status();
+  background: $color-inactive;
+}
+
+// Button
+.custom-btn {
+  background-color: RGB(59, 75, 101) !important;
+  border: none !important;
+  padding: 6px 20px !important;
+  box-shadow: 0px 0px 2px 0px #131c29;
+}
+.custom-btn:hover {
+  box-shadow: 0px 0px 5px 0px #131c29;
+}

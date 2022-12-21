@@ -1,0 +1,16 @@
+.flexing {
+  display: flex;
+  justify-content: space-between;
+}
+.paginationBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-right: 15px;
+}
+
+.addexambtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+}
